@@ -2,9 +2,9 @@
 
 namespace CesarLDsousa\ErpInterfaceSuite;
 
+use CesarLDsousa\ErpInterfaceSuite\Commands\ErpInterfaceSuiteCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use CesarLDsousa\ErpInterfaceSuite\Commands\ErpInterfaceSuiteCommand;
 
 class ErpInterfaceSuiteServiceProvider extends PackageServiceProvider
 {

@@ -2,9 +2,9 @@
 
 namespace CesarLDsousa\ErpInterfaceSuite\Tests;
 
+use CesarLDsousa\ErpInterfaceSuite\ErpInterfaceSuiteServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use CesarLDsousa\ErpInterfaceSuite\ErpInterfaceSuiteServiceProvider;
 
 class TestCase extends Orchestra
 {
