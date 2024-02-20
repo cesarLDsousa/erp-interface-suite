@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace CesarLDsousa\ErpInterfaceSuite\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class ErpInterfaceSuiteCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'erp-interface-suite';
 
     public $description = 'My command';
 

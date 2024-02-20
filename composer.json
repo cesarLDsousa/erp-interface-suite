@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "cesarldsousa/erp-interface-suite",
+    "description": "The 'ERP Interface Suite' is a comprehensive and powerful solution specifically designed for Laravel projects that require integration with the Callisto and Senior ERP systems. This package provides a range of features and facades that simplify and streamline interaction with ERP data, enabling direct access and efficient manipulation of essential business information.",
     "keywords": [
-        ":vendor_name",
+        "cesarLDsousa",
         "laravel",
-        ":package_slug"
+        "erp-interface-suite"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/cesarldsousa/erp-interface-suite",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "cesarLDsousa",
+            "email": "cesarluiz.git@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,19 +35,19 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "CesarLDsousa\\ErpInterfaceSuite\\": "src/",
+            "CesarLDsousa\\ErpInterfaceSuite\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "CesarLDsousa\\ErpInterfaceSuite\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
     "scripts": {
         "post-autoload-dump": "@composer run prepare",
-        "clear": "@php vendor/bin/testbench package:purge-skeleton --ansi",
+        "clear": "@php vendor/bin/testbench package:purge-erp-interface-suite --ansi",
         "prepare": "@php vendor/bin/testbench package:discover --ansi",
         "build": [
             "@composer run prepare",
@@ -73,10 +73,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "CesarLDsousa\\ErpInterfaceSuite\\ErpInterfaceSuiteServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "ErpInterfaceSuite": "CesarLDsousa\\ErpInterfaceSuite\\Facades\\ErpInterfaceSuite"
             }
         }
     },

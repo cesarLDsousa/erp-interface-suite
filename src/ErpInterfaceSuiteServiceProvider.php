@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace CesarLDsousa\ErpInterfaceSuite;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use CesarLDsousa\ErpInterfaceSuite\Commands\ErpInterfaceSuiteCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class ErpInterfaceSuiteServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('erp-interface-suite')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_erp-interface-suite_table')
+            ->hasCommand(ErpInterfaceSuiteCommand::class);
     }
 }
